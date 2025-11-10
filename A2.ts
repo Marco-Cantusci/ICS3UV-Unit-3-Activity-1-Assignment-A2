@@ -9,7 +9,7 @@
 const VOLUME: number = 1000;
 
 // formula/calculation of side length
-let sideLength: number = VOLUME / 100;
+const sideLength: number = VOLUME / 100;
 
 // print volume
 console.log("Volume:" + VOLUME + "mm³");
