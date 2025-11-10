@@ -15,6 +15,6 @@ let sideLength: number = VOLUME / 100;
 console.log("Volume:" + VOLUME + "mm³");
 
 // print side length
-console.log("The side length of a cube that has a volume of " + VOLUME + "mm³ is" + sideLength + "mm");
+console.log("The side length of a cube that has a volume of " + VOLUME + " mm³ is " + sideLength + " mm");
 
 console.log("\nDone.");

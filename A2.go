@@ -15,13 +15,13 @@ func main() {
 	const VOLUME float64 = 1000
 
 	// formula/calculation of side length
-	var sideLength float64 = VOLUME / 100
+	const sideLength float64 = VOLUME / 100
 
 	// print volume
-	fmt.Println("Volume:" ,VOLUME, "mm³")
+	fmt.Println("Volume:", VOLUME, "mm³")
 
 	// print side length
-	fmt.Println("The side length of a cube that has a volume of" ,VOLUME, "mm³ is" ,sideLength, "mm")
+	fmt.Println("The side length of a cube that has a volume of", VOLUME, "mm³ is", sideLength, "mm")
 
 	fmt.Println("\nDone.")
 
